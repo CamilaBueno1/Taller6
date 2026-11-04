@@ -2,7 +2,7 @@ import { useQuery, useQueryClient } from "@tanstack/react-query";
 import { useEffect } from "react";
 import { supabase } from "@/shared/api/supabase";
 import type { Session } from "@supabase/supabase-js";
- 
+
 // Clave de sesión compartida dentro de la funcionalidad de autenticación.
 // Al usar la misma clave en cualquier componente de la app,
 // TanStack garantiza que todos lean del mismo caché.

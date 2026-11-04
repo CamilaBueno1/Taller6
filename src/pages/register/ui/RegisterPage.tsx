@@ -8,6 +8,7 @@ import { getPasswordRequirements, isPasswordSecure, useRegister } from "@/featur
 import { Input }        from "@/shared/ui/Input";
 import { Button }       from "@/shared/ui/Button";
 import { theme }        from "@/shared/config/theme";
+
  
 export const RegisterPage = () => {
   const [email,    setEmail]    = useState("");
